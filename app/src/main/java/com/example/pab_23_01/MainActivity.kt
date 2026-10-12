@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setupScreen(R.layout.activity_main, R.id.nav_form)
 
         var edtNama = findViewById<EditText>(R.id.edt_nama)
         var rgJK = findViewById<RadioGroup>(R.id.rgJk)

@@ -16,7 +16,7 @@ class DuaActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dua)
+        setupScreen(R.layout.activity_dua, R.id.nav_form)
 
         val pbLoading = findViewById<ProgressBar>(R.id.pbLoading)
         val tvHasil = findViewById<TextView>(R.id.tvHasil)
@@ -42,6 +42,8 @@ class DuaActivity : AppCompatActivity() {
         btnKembali.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP)
+            startActivity(intent)
 
         }
 

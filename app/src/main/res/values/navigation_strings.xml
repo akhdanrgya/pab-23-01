@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_form">Form</string>
+    <string name="nav_info">Info</string>
+    <string name="nav_about">Tentang</string>
+    <string name="info_title">INFO PENDAFTARAN</string>
+    <string name="info_intro">Cara mengisi form pendaftaran:</string>
+    <string name="info_steps">1. Masukkan nama lengkap.\n2. Pilih kota asal.\n3. Pilih jenis kelamin.\n4. Setujui syarat dan ketentuan.\n5. Tekan Submit untuk melihat hasil.</string>
+    <string name="about_title">TENTANG APLIKASI</string>
+    <string name="about_description">Aplikasi latihan sederhana untuk mengisi dan menampilkan data pendaftaran.</string>
+    <string name="about_features">Fitur aplikasi:\n• Form pendaftaran\n• Hasil data yang diisi\n• Panduan pengisian form</string>
+</resources>

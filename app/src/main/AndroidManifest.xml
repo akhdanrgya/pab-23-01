@@ -22,6 +22,8 @@
         </activity>
 
         <activity android:name=".DuaActivity"/>
+        <activity android:name=".TigaActivity" android:exported="false"/>
+        <activity android:name=".EmpatActivity" android:exported="false"/>
 
     </application>
 
